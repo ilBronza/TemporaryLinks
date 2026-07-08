@@ -2,6 +2,8 @@
 
 Link temporanei controllati per operatori esterni: URL pubblici `https://dominio.it/t/{token}` con scadenza, revoca manuale, limite visite, password/PIN opzionale, log accessi e protezione della pagina di destinazione.
 
+Documentazione completa del flusso: [FUNZIONAMENTO.md](FUNZIONAMENTO.md).
+
 ## Installazione nel progetto host
 
 Aggiungere il path repository (se non già coperto dal wildcard) e la dependency:
