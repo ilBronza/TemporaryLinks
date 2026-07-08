@@ -1,0 +1,38 @@
+{
+    "name": "ilbronza/temporarylinks",
+    "description": "controlled temporary links for external operators",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davide Bronzini",
+            "email": "davide@sistema.srl",
+            "homepage": "https://www.sistema.srl"
+        }
+    ],
+    "homepage": "https://github.com/ilbronza/temporarylinks",
+    "keywords": ["Laravel", "TemporaryLinks"],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "IlBronza\\TemporaryLinks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IlBronza\\TemporaryLinks\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IlBronza\\TemporaryLinks\\TemporaryLinksServiceProvider"
+            ],
+            "aliases": {
+                "TemporaryLinks": "IlBronza\\TemporaryLinks\\Facades\\TemporaryLinks"
+            }
+        }
+    }
+}
